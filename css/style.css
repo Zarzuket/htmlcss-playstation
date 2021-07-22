@@ -11,11 +11,18 @@
     padding: 10px 5px;
 }
 
+#navbarNavDropdown{
+    justify-content: flex-end;
+}
+
 /* common */
 section{
     margin-bottom: 50px;
 }
 
+img{
+    width: 100%;
+}
 
 /* hero */
 
@@ -46,4 +53,22 @@ section{
     width: 100%;
     border-radius: 50px;
     padding: 20px;
+}
+
+/* play_has_no_limits */
+
+#play_has_no_limits h2,
+h3{
+    font-size: 80px;
+}
+
+#play_has_no_limits h3{
+    padding-top: 100px;
+}
+
+#play_has_no_limits h5{
+    color: blue;
+}
+#play_has_no_limits p{
+    color: grey;
 }
