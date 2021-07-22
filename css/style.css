@@ -46,7 +46,7 @@ section{
     font-size: 30px;
 }
 
-.container_img_hero img{
+.container_img img{
     width: 100%;
     border-radius: 50px;
     padding: 20px;
@@ -54,8 +54,10 @@ section{
 
 /* play_has_no_limits */
 
-#play_has_no_limits h2,
-h3{
+#play_has_no_limits h2{
+    font-size: 80px;
+}
+#play_has_no_limits h3{
     font-size: 80px;
 }
 
@@ -93,6 +95,7 @@ h3{
 	background-position: center;
     color: white;
     padding: 50px;
+    margin-bottom: 0px;
 }
 
 
@@ -103,4 +106,23 @@ h3{
    
 #it_takes_two p{
        font-size: 40px;
+}
+
+/* nuove uscite */
+
+#nuove_uscite{
+    padding-top: 50px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#nuove_uscite h2{
+    font-size: 100px;
+}
+#nuove_uscite h5{
+    font-size: 100px;
+}
+
+#nuove_uscite h6{
+
 }
