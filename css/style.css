@@ -11,6 +11,12 @@
     padding: 10px 5px;
 }
 
+/* common */
+section{
+    margin-bottom: 50px;
+}
+
+
 /* hero */
 
 #hero{
@@ -34,4 +40,10 @@
 
 #hero p{
     font-size: 30px;
+}
+
+.container_img_hero img{
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px;
 }
