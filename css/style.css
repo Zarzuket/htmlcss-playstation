@@ -20,9 +20,6 @@ section{
     margin-bottom: 50px;
 }
 
-img{
-    width: 100%;
-}
 
 /* hero */
 
@@ -71,4 +68,39 @@ h3{
 }
 #play_has_no_limits p{
     color: grey;
+}
+
+.container_img_play_has_no_limits img{
+    width: 100%;
+}
+
+.bord_bot::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin:  auto;
+    background-color: blue;
+}
+
+
+/* it takes two */
+
+#it_takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    color: white;
+    padding: 50px;
+}
+
+
+#it_takes_two h2{
+    font-size: 100px;
+    margin: 40px 0;
+}
+   
+#it_takes_two p{
+       font-size: 40px;
 }
