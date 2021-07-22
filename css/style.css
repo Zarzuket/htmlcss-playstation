@@ -1,0 +1,37 @@
+.header_top{
+    background-color: black;
+    height: 50px;
+}
+
+
+.container_logo{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 10px 5px;
+}
+
+/* hero */
+
+#hero{
+    background-image: url(../img/jumbo-bg.png);
+    /* height: 1000px; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    padding-top: 300px;
+    color: white;
+}
+
+#hero img{
+    width: 100%;
+}
+
+#hero h2{
+ font-size: 70px;
+ margin: 40px 0;
+}
+
+#hero p{
+    font-size: 30px;
+}
