@@ -33,18 +33,6 @@ section{
     color: white;
 }
 
-#hero img{
-    width: 100%;
-}
-
-#hero h2{
- font-size: 70px;
- margin: 40px 0;
-}
-
-#hero p{
-    font-size: 30px;
-}
 
 .container_img img{
     width: 100%;
@@ -52,14 +40,15 @@ section{
     padding: 20px;
 }
 
-/* play_has_no_limits */
 
-#play_has_no_limits h2{
-    font-size: 80px;
+.hero{
+    display: flex;
 }
-#play_has_no_limits h3{
-    font-size: 80px;
+
+.hero_img{
+    height: 40px;
 }
+/* play_has_no_limits */
 
 #play_has_no_limits h3{
     padding-top: 100px;
@@ -98,14 +87,8 @@ section{
     margin-bottom: 0px;
 }
 
-
-#it_takes_two h2{
-    font-size: 100px;
-    margin: 40px 0;
-}
-   
-#it_takes_two p{
-       font-size: 40px;
+.it_takes_two_img{
+    max-height: 100px;
 }
 
 /* nuove uscite */
@@ -114,15 +97,12 @@ section{
     padding-top: 50px;
     background-color: #1f1f1f;
     color: white;
+
 }
 
-#nuove_uscite h2{
-    font-size: 100px;
-}
-#nuove_uscite h5{
-    font-size: 100px;
-}
 
-#nuove_uscite h6{
+/* PS4 */
 
+.container_img_ps4 img{
+    width: 100%;
 }
