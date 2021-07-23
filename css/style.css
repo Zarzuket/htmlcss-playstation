@@ -15,13 +15,15 @@
     justify-content: flex-end;
 }
 
-/* common */
+/* COMMON */
 section{
     margin-bottom: 50px;
 }
 
+/* SEZIONI MAIN */
 
-/* hero */
+
+/* HERO */
 
 #hero{
     background-image: url(../img/jumbo-bg.png);
@@ -48,7 +50,7 @@ section{
 .hero_img{
     height: 40px;
 }
-/* play_has_no_limits */
+/* PLAY HAS NO LIMITS */
 
 #play_has_no_limits h3{
     padding-top: 100px;
@@ -75,7 +77,7 @@ section{
 }
 
 
-/* it takes two */
+/* IT TAKES TWO */
 
 #it_takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -91,7 +93,7 @@ section{
     max-height: 100px;
 }
 
-/* nuove uscite */
+/* NUOVE USCITE */
 
 #nuove_uscite{
     padding-top: 50px;
@@ -105,4 +107,21 @@ section{
 
 .container_img_ps4 img{
     width: 100%;
+}
+
+/* PS_PLUS */
+
+#ps_plus{
+    background-color: #bebcbb;
+}
+
+.container_img_ps_plus img{
+    width: 100%;
+}
+
+/* SALES */
+
+.container_img_sales img{
+    width: 100%;
+    margin-bottom: 20px;
 }
