@@ -189,3 +189,11 @@ section{
 .container_ps_now_plus img{
     width: 100%;
 }
+
+/* SOCIAL */
+
+.container_img_social img{
+    width: 100%;
+    margin-top: 20px;
+}
+
