@@ -43,6 +43,7 @@ section{
 }
 
 /* BUTTONS */
+
 .btn_grey {
 	background-color: #363636;
 	color: white;
@@ -67,6 +68,8 @@ section{
     background-color: white;
     color: black;
 }
+
+/* BUTTONS HOVER */
 
 .btn_grey:hover{
     box-shadow:inset  0px 0px 2px 2px white;
