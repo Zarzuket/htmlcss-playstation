@@ -68,7 +68,33 @@ section{
     color: black;
 }
 
+.btn_grey:hover{
+    box-shadow:inset  0px 0px 2px 2px white;
+    color: white;
+    background-color: grey;
+}
 
+.btn_red:hover{
+	box-shadow: inset 0px 0px 2px 2px black;
+    color: white;
+}
+
+.btn_blue:hover{
+    box-shadow: inset 0px 0px 2px 2px white;;
+    color: white;
+}
+
+.btn_plus:hover{
+    box-shadow: inset 0px 0px 2px 2px white;
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+.btn_white:hover{
+    box-shadow: inset 0px 0px 2px 2px black;
+    background-color: white;
+    color: black;
+}
 
 /* SEZIONI MAIN */
 
@@ -100,6 +126,11 @@ section{
 .hero_img{
     height: 40px;
 }
+
+.translate:hover{
+    transform: translateY(-20px) ;
+
+}
 /* PLAY HAS NO LIMITS */
 
 #play_has_no_limits h3{
@@ -124,6 +155,14 @@ section{
     width: 100%;
     margin:  auto;
     background-color: blue;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+
+.opacity:hover{
+    opacity: 1;
 }
 
 
