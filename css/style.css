@@ -1,18 +1,40 @@
-.header_top{
-    background-color: black;
-    height: 50px;
+body {
+	font-family: Arial, sans-serif;
 }
 
-
-.container_logo{
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-    padding: 10px 5px;
+/* HEADER */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
 }
-
-#navbarNavDropdown{
-    justify-content: flex-end;
+.header_top {
+	background-color: #000;
+	display: flex;
+	justify-content: flex-end;
+	padding: 12px 20px;
+}
+.header_top img {
+	height: 15px;
+}
+.header_bottom {
+	background: #fff;
+}
+.header_bottom .navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-size: 17px;
+}
+.header_bottom .dropdown-toggle::after {
+	content: url('../img/chevron-down-solid.svg');
+	border: none;
+	display: inline-block;
+    width: 10px;
+    vertical-align: middle;
+}
+.header_bottom .lens {
+	height: 25px;
 }
 
 /* COMMON */
@@ -20,6 +42,33 @@ section{
     margin-bottom: 50px;
 }
 
+
+
+/* BUTTONS */
+.btn_grey {
+	background-color: #363636;
+	color: white;
+}
+
+.btn_red{
+	background-color: #cd3d0f;
+	color: white;
+}
+
+.btn_blue{
+    background-color: #2d64e6;
+    color: white;
+}
+
+.btn_plus{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+.btn_white{
+    background-color: white;
+    color: black;
+}
 /* SEZIONI MAIN */
 
 
@@ -27,12 +76,12 @@ section{
 
 #hero{
     background-image: url(../img/jumbo-bg.png);
-    /* height: 1000px; */
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-    padding-top: 300px;
+	background-position: top center;
+    padding: 300px 0 50px 0;
     color: white;
+    margin-top: 90px;
 }
 
 
