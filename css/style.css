@@ -11,7 +11,7 @@ header {
 	z-index: 3;
 }
 .header_top {
-	background-color: #000;
+	background-color: black;
 	display: flex;
 	justify-content: flex-end;
 	padding: 12px 20px;
@@ -20,7 +20,7 @@ header {
 	height: 15px;
 }
 .header_bottom {
-	background: #fff;
+	background: white;
 }
 .header_bottom .navbar-light .navbar-nav .nav-link {
 	color: #000;
@@ -41,8 +41,6 @@ header {
 section{
     margin-bottom: 50px;
 }
-
-
 
 /* BUTTONS */
 .btn_grey {
@@ -69,6 +67,9 @@ section{
     background-color: white;
     color: black;
 }
+
+
+
 /* SEZIONI MAIN */
 
 
@@ -197,3 +198,53 @@ section{
     margin-top: 20px;
 }
 
+/* /SEZIONI MAIN */ 
+
+/* FOOTER */
+
+footer{
+    margin-top: 40px;
+    background-color: #00439c;
+    color: white;
+    padding-top: 40px;
+}
+
+.img_logo{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.fa-globe{
+    margin-right: 10px;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover{
+    color: white;
+}
+
+.img_logo_footer{
+    width: 100px;
+}
+
+.span_underline{
+    text-decoration: underline;
+}
+span a{
+    color: white;
+}
+
+span a:hover{
+    color: white;
+}
